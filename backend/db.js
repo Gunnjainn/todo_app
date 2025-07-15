@@ -8,7 +8,7 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://admin:QKnkud0ivlJv8lfR@cluster0.y1zqtec.mongodb.net/todos")  //not the right way to do for real applications
+mongoose.connect("yoururl.mongodb.net/todos")  //not the right way to do for real applications
 
 const todoSchema = mongoose.Schema({
     title: String,
